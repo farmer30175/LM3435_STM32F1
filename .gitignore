@@ -1,0 +1,34 @@
+# Keil MDK build output
+# NOTE: startup_stm32f103xb.s is the ARM assembler startup source and must stay
+#       tracked. Only the generated listing in the build folder is ignored.
+MDK-ARM/LM3435_PWM_K4_Testbench/
+MDK-ARM/*.axf
+MDK-ARM/*.hex
+MDK-ARM/*.bin
+MDK-ARM/*.map
+MDK-ARM/*.htm
+MDK-ARM/*.lnp
+MDK-ARM/*.sct
+MDK-ARM/*.dep
+MDK-ARM/*.o
+MDK-ARM/*.d
+MDK-ARM/*.crf
+MDK-ARM/*.0
+MDK-ARM/*.lst
+MDK-ARM/*.log
+MDK-ARM/DebugConfig/
+MDK-ARM/RTE/Device/
+MDK-ARM/*.dbgconf
+
+# Keil per-user workspace files (machine specific)
+MDK-ARM/*.uvguix.*
+MDK-ARM/*.uvoptx
+
+# generic
+*.bak
+*.orig
+*~
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
